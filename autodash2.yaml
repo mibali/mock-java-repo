@@ -1,0 +1,10 @@
+alert_configuration:
+    stg:
+        slack_channels:
+            - autodash-stg-alerts
+            - fulfilment-tooling-oncall-stg
+            - fulfilment-tooling-alerts-stg
+    prd:
+        slack_channels:
+            - fulfilment-tooling-oncall
+            - fulfilment-tooling-alerts
